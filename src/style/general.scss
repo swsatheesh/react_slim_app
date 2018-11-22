@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: left;
+}
+
+.navbar-default {
+    background-color: #222;
+    border-color: #222;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, .navbar-default .user-name {
+  color: #fff;
+}
+
+.navbar-default .user-name {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #e8e6e6;
+    background-color: transparent;
+}
+
+.navbar .divider-vertical {
+    height: 18px;
+    margin: 15px 5px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
+}
